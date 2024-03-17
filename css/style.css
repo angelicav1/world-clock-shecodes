@@ -1,12 +1,17 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: rgb(242, 176, 136);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
